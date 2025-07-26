@@ -1,0 +1,1 @@
+export interface RSVPState {n  words: string[];n  currentIndex: number;n  isPlaying: boolean;n  wpm: number;n  currentWord: string;n  progress: number;n  totalWords: number;n  timeRemaining: number;n}
