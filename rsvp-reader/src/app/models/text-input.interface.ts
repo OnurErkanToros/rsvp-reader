@@ -1,0 +1,1 @@
+export interface TextInput {n  content: string;n  source: 'paste' | 'file';n  fileName?: string;n  wordCount: number;n  timestamp: Date;n}

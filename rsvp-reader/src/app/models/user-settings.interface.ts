@@ -1,0 +1,1 @@
+export interface UserSettings {n  wpm: number;n  fontSize: number;n  theme: 'light' | 'dark';n  autoSave: boolean;n  fullscreenMode: boolean;n}

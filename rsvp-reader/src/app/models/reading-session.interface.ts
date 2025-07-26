@@ -1,0 +1,1 @@
+import { TextInput } from './text-input.interface';nnexport interface ReadingSession {n  id: string;n  textInput: TextInput;n  startTime: Date;n  endTime?: Date;n  wordsRead: number;n  averageWpm: number;n  completionPercentage: number;n}
