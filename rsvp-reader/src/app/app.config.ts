@@ -1,1 +1,13 @@
-import { ApplicationConfig, provideBrowserGlobalErrorListeners, provideZonelessChangeDetection } from '@angular/core';nimport { provideRouter } from '@angular/router';nnimport { routes } from './app.routes';nimport { provideClientHydration, withEventReplay } from '@angular/platform-browser';nnexport const appConfig: ApplicationConfig = {n  providers: [n    provideBrowserGlobalErrorListeners(),n    provideZonelessChangeDetection(),n    provideRouter(routes), provideClientHydration(withEventReplay())n  ]n};
+import { ApplicationConfig, provideBrowserGlobalErrorListeners, provideZonelessChangeDetection } from '@angular/core';
+import { provideRouter } from '@angular/router';
+
+import { routes } from './app.routes';
+import { provideClientHydration, withEventReplay } from '@angular/platform-browser';
+
+export const appConfig: ApplicationConfig = {
+  providers: [
+    provideBrowserGlobalErrorListeners(),
+    provideZonelessChangeDetection(),
+    provideRouter(routes), provideClientHydration(withEventReplay())
+  ]
+};
